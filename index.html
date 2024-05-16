@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Ronitkumar Sabhaya</div>
+      </div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/giphy.gif" alt="Ronitkumar" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Ronitkumar Sabhaya</h1>
+        <p class="section__text__p2">Freshman Student at UTA</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('https://drive.google.com/file/d/1r6NuL4OTb1uWHeodd1hDNjhm-RVYeXVF/view?usp=sharing')"
+          >
+            Download CV
+          </button>
+        </div>
+        <div id="socials-container">
+            <img
+              src="./assets/linkedin.png"
+              alt="My LinkedIn profile"
+              class="icon"
+              onclick="location.href='https://www.linkedin.com/in/ronit75/'"
+            />
+            <img
+              src="./assets/github.png"
+              alt="My github profile"
+              class="icon"
+              onclick="location.href='https://github.com/Ronitsabhaya75'"
+            />
+          </div>
+      </div>
+    </section>
+    <section id="about">
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="__pic-container">
+        <div class="about-detail-containers">
+            <div class="about-containers">
+                <div class="detail-container">
+                    <p>
+                        I'm Ronitkumar Sabhaya, a freshman getting into computer science. I'm really curious about learning artificial intelligence, having keen interested 
+                        in computer vision. I'm part of the software development club where I've learned a lot about Python and C and how to be a leader.
+                         Basketball is something I love because it teaches me about working together with others. I'm looking for internships
+                          where I can use what I know in software engineering, machine learning, or computer vision. I'm eager to keep learning and growing in the world
+                           of computer science.
+                        <br>
+                        <br>
+                        <b><dd><h2>Skills</h2></b></dd>
+                        <dt> [ "Python", "CSS", "HTML", "React", "Javascript",
+                            "SQL", "Git", "Github", "C"]
+                        </dt>
+                        <br>
+                        <div>
+                            <ul>
+                                <h2>Qualification</h2>
+                            <li><h3> Volunteering Research Assistant</h3></li>
+            <p>
+              <b>University of Texas, Arlington</b>
+              <br>
+               <b>April 2024 - Present</b>
+              <br>
+            </p>
+            <li><h3> Data Entry Clerk</h3></li>
+            <p>
+              <b>Parvati Gems, Surat, Gujarat</b>
+              <br>
+              <b>June 2022 - March 2023</b>
+            </ul>
+                        </div>
+                        </p>
+                    
+                </div>
+                <div>
+                    <p></p>
+                </div>
+                <br> <!-- Add one line space here -->
+                            <div class="detail-container">
+                                <h2><u>University of Texas, Arlington</u></h2>
+                            </div>
+                            <div>
+                                <ul>
+                                <li><p><i>Bachelors of Science in Computer Science</i></p></li>
+                                <li><p><i>Expected Graduation: June 2028</i></p></li>
+                                <li><p><i>Current GPA: 3.36</i></p></li>
+                                <li><p><i><dl><b>Relevant Courses:</b></dl></i></li></p>
+                            </ul>
+                                    <dd>
+                                        <dt><p><i> Introduction to progamming, Introduction to Computer Science & engineering, Discrete structures,
+                                            Intermediate Programming, Calculus I, Calculus II, Introduction to linear algebra and vector spaces
+                                        </i></p></dt>
+                                    </dd>
+                            </div>
+                            </ul>
+
+                            </div>
+                            <div>
+                                <ul>
+                            <h2>Contact</h2>
+                            <li><p>Email:<a href="mailto:examplemail@gmail.com"><i> <u>rds0429@mavs.uta.edu</i></p></u></a></li>
+                            <li>phone:<i><u>+1 (469) 838-2521</i></u></li>
+            </p>
+        </ul>
+            <div class="contact-info">
+            </div>
+                            </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                   
+                  </div>
+    </section>
+    <section id="projects">
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/Snake.jpeg"
+                  alt="Project 1"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Classic Snake Game</h2>
+              <p>Classic snake game using C with some additional features of solving math problem and relational problem to increase the knowledge.</p>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/Ronitsabhaya75/SnakeGame'"
+                >
+                Github
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/histogram.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">FrameFlex Toolkit</h2>
+            <p>An app that shows user different modes of Live cam along with feature like calculating the number of pixels in frame visually using histogram.</p>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Ronitsabhaya75/FramFlex_Toolkit'"
+              >
+                Github
+            </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/Image.jpeg"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Image Manipulation using PIL</h2>
+            <p>Created using the function of PIL library to perform basic function on Image with the user friendly prompts.</p>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Ronitsabhaya75/Image-Manipulation-Using-PIL'"
+              >
+                Github
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+      
+    <script src="script.js"></script>
+  </body>
+</html>
